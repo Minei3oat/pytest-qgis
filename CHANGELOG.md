@@ -4,6 +4,7 @@
 
 ### Fixes
 
+* Configure QGIS early so conftests can now import `qgis.utils.iface`
 * Find QGIS data and plugins (e.g. processing) when running in a venv with Qt >= 6.12 on Linux
 * Fix random crashes at test suite exit
 
